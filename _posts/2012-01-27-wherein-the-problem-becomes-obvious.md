@@ -1,8 +1,6 @@
 ---
 title: Wherein the Problem Becomes Obvious
 layout: default
-tags:
-  - burning man
 ---
 
 From the latest Burning Man Newsletter:
