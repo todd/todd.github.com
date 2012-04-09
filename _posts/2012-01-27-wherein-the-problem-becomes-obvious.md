@@ -3,8 +3,6 @@ title: Wherein the Problem Becomes Obvious
 layout: default
 tags:
   - burning man
-
-type: regular
 ---
 
 From the latest Burning Man Newsletter:
