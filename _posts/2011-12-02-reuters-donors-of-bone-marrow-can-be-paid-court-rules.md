@@ -1,6 +1,6 @@
 ---
 title: Reuters: Donors of bone marrow can be paid, court rules
-layout: default
+layout: post
 
 type: link
 ---

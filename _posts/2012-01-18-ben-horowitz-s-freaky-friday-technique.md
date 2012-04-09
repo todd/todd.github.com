@@ -1,6 +1,6 @@
 ---
 title: Ben Horowitz's Freaky Friday Technique
-layout: default
+layout: post
 
 type: link
 ---

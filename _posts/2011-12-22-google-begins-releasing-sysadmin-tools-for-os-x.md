@@ -1,6 +1,6 @@
 ---
 title: Google Begins Releasing SysAdmin Tools for OS X
-layout: default
+layout: post
 tags:
   - os x
   - google

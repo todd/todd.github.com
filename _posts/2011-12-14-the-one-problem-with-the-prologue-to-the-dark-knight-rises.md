@@ -1,6 +1,6 @@
 ---
 title: The One Problem with the Prologue to The Dark Knight Rises
-layout: default
+layout: post
 tags:
   - batman
   - the dark knight rises

@@ -1,6 +1,6 @@
 ---
 title: "Innovation" 
-layout: default
+layout: post
 tags:
   - yahoo
   - facebook

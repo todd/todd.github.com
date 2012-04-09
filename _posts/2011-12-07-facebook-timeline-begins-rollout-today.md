@@ -1,6 +1,6 @@
 ---
 title: Facebook Timeline Begins Rollout Today
-layout: default
+layout: post
 
 type: link
 ---

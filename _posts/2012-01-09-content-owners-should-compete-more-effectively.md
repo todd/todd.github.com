@@ -1,6 +1,6 @@
 ---
 title: Content Owners Should Compete More Effectively
-layout: default
+layout: post
 tags:
   - sopa
   - pipa

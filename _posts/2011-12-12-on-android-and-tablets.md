@@ -1,6 +1,6 @@
 ---
 title: On Android and Tablets
-layout: default
+layout: post
 tags:
   - android
   - tablets

@@ -1,6 +1,6 @@
 ---
 title: A Great Explanation of Why SOPA is Flawed
-layout: default
+layout: post
 tags:
   - sopa
 

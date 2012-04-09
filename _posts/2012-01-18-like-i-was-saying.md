@@ -1,6 +1,6 @@
 ---
 title: Like I was Saying...
-layout: default
+layout: post
 tags:
   - sopa
   - pipa

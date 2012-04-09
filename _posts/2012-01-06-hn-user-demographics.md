@@ -1,6 +1,6 @@
 ---
 title: HN User Demographics
-layout: default
+layout: post
 tags:
   - hacker news
   - demographics
@@ -22,7 +22,7 @@ During the collection period, I logged 456 visits from 447 uniques. I'd like to 
 
 Anyway, let's jump in.
 
-We'll start with the locale data. I logged 193 visits from users in the United States - this was far and away the majority of our visitors. India was next in a distant second with 22 visits, with the UK trailing not far behind at 20 visits. The chart below should give you a good feel for the distribution of visits by territory. Note that I've removed the US from the chart since the high figure heavily skewed it in an unhelpful way - just remember that the US is green on this chart.  ![map](http://media.tumblr.com/tumblr_lxe5frZbTX1qzl41y.png)  
+We'll start with the locale data. I logged 193 visits from users in the United States - this was far and away the majority of our visitors. India was next in a distant second with 22 visits, with the UK trailing not far behind at 20 visits. The chart below should give you a good feel for the distribution of visits by territory. Note that I've removed the US from the chart since the high figure heavily skewed it in an unhelpful way - just remember that the US is green on this chart.  ![map](http://media.tumblr.com/tumblr_lxe5frZbTX1qzl41y.png)  
 
 Since the US had the most visits by far, I want to take a second to break down visitors by state. As you can see in the chart below, California had the greatest concentration with 54 visitors, followed by New York (20), Texas (13), New Jersey (12), and Massachusetts (11).  ![another map](http://media.tumblr.com/tumblr_lxe5g2N57f1qzl41y.png)
 
@@ -34,6 +34,6 @@ In terms of mobile, iOS has the greatest concentration. In fact, iOS devices use
 
 Finally, we'll look at Browser stats. Chrome is the *clear* winner here with 55% of users using some version of the Google browser. Firefox is in a far second place, scoring 16.7%, followed by Safari (mobile and desktop) at 12.5%. Mozilla Compatible Agent, for those wondering, appears to belong to iOS devices with malformed User Agents - at least that's what a cursory search led me to believe (if someone has a better explanation, I'd be happy to post it here).  ![yet another chart](http://media.tumblr.com/tumblr_lxe5gwOuAo1qzl41y.png)
 
-There is more information in the dataset that I didn't cover, but I feel like this is the data HN users are most curious about. If there is some dimension you’d like to see that isn't included in the dataset, sound off in the comments on HN and I'll do my best to accommodate you. I hope you guys find this information useful.
+There is more information in the dataset that I didn't cover, but I feel like this is the data HN users are most curious about. If there is some dimension you'd like to see that isn't included in the dataset, sound off in the comments on HN and I'll do my best to accommodate you. I hope you guys find this information useful.
 
 Update: HN Comments are [here](http://news.ycombinator.com/item?id=3434640) 

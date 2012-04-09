@@ -1,6 +1,6 @@
 ---
 title: Nissan fuel cell vehicle on track for 2015
-layout: default
+layout: post
 
 type: link
 ---
