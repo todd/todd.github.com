@@ -1,6 +1,6 @@
 ---
-title: Wherein the Problem Becomes Obvious
 layout: default
+title: Wherein the Problem Becomes Obvious
 ---
 
 From the latest Burning Man Newsletter:
