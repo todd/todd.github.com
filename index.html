@@ -1,0 +1,27 @@
+---
+layout: default
+title: dd0T
+---
+{% for post in site.posts %}
+  <div class="page-header"><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></div>
+  <div class="well">
+    {{ post.content }}
+  </div>
+  <div align="right">
+    <h6><a href="{{ post.url }}">Posted on {{ post.date | date_to_string }}</a> | <a href="{{ post.url }}#disqus_thread">Comments</a></h6>
+  </div>
+{% endfor %}
+
+<hr />
+<ul class="pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page }}">Older</a>
+  </li>
+  {% endif %}
+</ul>

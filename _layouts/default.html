@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="Todd Bealmear">
+
+		<!-- Le styles -->
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<style type="text/css">
+			html {
+				height: 100%;
+			}
+			
+			body {
+				height: 100%;
+				padding-top: 60px;
+			}
+
+			a {
+				color: #999999;
+			}
+			
+			.hero-unit{
+				padding: 0px;
+				margin-top: 50px;
+				margin-right: 70px;
+				margin-bottom: 20px;
+				background-color: #ffffff;
+				-webkit-border-radius: 6px;
+				-moz-border-radius: 6px;
+				border-radius: 6px;
+			}
+			
+			.hero-unit a {
+				color: #000000;
+			}
+			
+			.hero-unit a:hover {
+				color: #000000;
+				text-decoration: none;
+			}
+
+			.page-header a {
+				color: #999999;
+				font-weight: bold;
+			}
+
+			.page-header a:hover {
+				color: #005580;
+			}
+
+			h6 a {
+				color: inherit;
+				font-weight: inherit;
+			}
+
+			.pager a {
+				color: #999999;
+			}
+			
+			.pager a:hover {
+				color: #005580;
+			}
+
+			footer {
+				margin-top: 10px;
+				margin-bottom: 10px;
+				height: 30px;
+			}
+		</style>
+		<link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+			<div class="container">
+				<div class="row">
+					<div class="span8 offset2">
+						<div class="row">
+							<div class="hero-unit span4">
+								<!-- Title -->
+								<h1><a href="/">dd0T</a></h1>
+								<h2>Ramblings of a Quasi-Madman</h2>
+							</div>
+							<div class="span3 thumbnail"><img src="/img/todd.jpg" alt="Todd...and Godzilla."></div>
+						</div>
+						<!-- Main Content -->
+				
+						{{ content }}
+
+						<!-- /Main Content -->
+					</div>
+				</div>
+				<div class="row">
+				<footer class="span8 offset2">
+					Copyright &copy; 2011-2012 Todd Bealmear. All Rights Reserved.<br />
+					Todd on: <a href="http://twitter.com/ToddBealmear">Twitter</a> |
+					<a href="https://plus.google.com/103666382843084324781/posts">Google+</a> |
+					<a href="http://github.com/toddward">GitHub</a> |
+					<a href="http://stackoverflow.com/users/780347/todd">Stack Overflow</a> |
+					<a href="http://news.ycombinator.com/user?id=Toddward">Hacker News</a>
+				</footer>
+				</div>
+			</div><!-- /container -->
+	</body>
+</html>
