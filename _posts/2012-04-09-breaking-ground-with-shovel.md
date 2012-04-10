@@ -23,9 +23,9 @@ To get started, I simply invoked `pip install shovel` (in a virtualenv, of cours
 Once I had it installed, I got to work. Shovel will automatically execute a specified task in any file called `shovel.py` when `shovel <taskname>` is called in the same directory. Alternatively, you can "modularize" (this isn't strict Python modularization - see the [docs](https://github.com/seomoz/shovel/blob/master/README.md) for a more thorough explanation) your tasks by creating a `shovel` directory and creating Python files and/or subdirectories within it. For instance, if you had a task called `cure` in a file named `cancer.py` within a directory named `diseases`, you'd invoke it from the directory containing the `shovel` directory with `shovel diseases.cancer.cure`.
 
 To start hacking with Shovel, you only need to import one class:
-
+{% highlight python %}
 	from shovel import task
-	
+{% endhighlight %}
 `task` is actually a decorator class - to use it, simply decorate a method with `@task` and it instantly becomes a task you can execute with Shovel (provided it's in a Shovel file or directory). So you can basically take any method you've written, wrap it with `@task`, and invoke it from the command line. Shovel will also look for arguments in the command to use as `args` or `kwargs` and uses comment blocks within the method as help dialogue (accessed, conveniently enough, with `shovel help`). These features make Shovel extremely easy and useful to use.
 
 With this knowledge in hand, I set out to create a Shovel file that would handle my Jekyll dirty work. Beyond those two additional lines of code, there's nothing extra you need to add to get Shovel to work with your code (besides maybe making errors exit to the command line gracefully). From there it was a bunch of string and date manipulation to get the results I desired - what follows is one of my Shovel tasks for creating a blog post (a link to the full source is below that) - `CONFIG` references a list instantiated outside the method:
