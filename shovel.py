@@ -35,7 +35,6 @@ def post(title='new-blog-post', date=None):
 		f.write('---\n')
 		f.write('layout: post\n')
 		f.write('title: ' + title + '\n')
-		f.write('description: ""\n')
 		f.write('category: \n')
 		f.write('tags: []\n')
 		f.write('---')
@@ -56,5 +55,4 @@ def page(title, name=None):
 		f.write('---\n')
 		f.write('layout: page')
 		f.write('title: "' + title + '"\n')
-		f.write('description: ""\n')
 		f.write('---\n')
