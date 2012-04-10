@@ -24,9 +24,7 @@ Once I had it installed, I got to work. Shovel will automatically execute a spec
 
 To start hacking with Shovel, you only need to import one class:
 
-{% highlight python %}
 	from shovel import task
-{% endhighlight %}
 
 `task` is actually a decorator class - to use it, simply decorate a method with `@task` and it instantly becomes a task you can execute with Shovel (provided it's in a Shovel file or directory). So you can basically take any method you've written, wrap it with `@task`, and invoke it from the command line. Shovel will also look for arguments in the command to use as `args` or `kwargs` and uses comment blocks within the method as help dialogue (accessed, conveniently enough, with `shovel help`). These features make Shovel extremely easy and useful to use.
 
