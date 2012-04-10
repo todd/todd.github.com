@@ -35,6 +35,7 @@ def post(title='new-blog-post', date=None):
 		f.write('---\n')
 		f.write('layout: post\n')
 		f.write('title: ' + title + '\n')
+		f.write('published: false')
 		f.write('category: \n')
 		f.write('tags: []\n')
 		f.write('---')
