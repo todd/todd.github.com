@@ -12,7 +12,7 @@ And it's awesome - I'm really enjoying it.
 
 But, there's a little bit of boilerplate that has to go into every post - not to where it becomes a massive undertaking to draft one, but enough that it gets a little tedious. A glance at various Jekyll implementations revealed that many users are using a Rakefile to handle the monotonous task of creating new content and generating the associated boilerplate. Well, given that Python is my language of choice at the moment, I thought this would be a good opportunity to teach myself something new (and avoid the temptation of being lazy and cloning someone's Rakefile).
 
-Enter [Shovel](https://github.com/seomoz/shovel). I first became aware of Shovel a few weeks ago when a weekly Python digest I receive made mention of it. Billed as "Rake for Python," I became intrigued and poked through the repo for a few minutes before filing it away in my mind and went back to work. When the inspiration for writing a task automator for Jekyll struck me, I decided I'd use the this library instead of Rake.
+Enter [Shovel](https://github.com/seomoz/shovel). I first became aware of Shovel a few weeks ago when a weekly Python digest I receive made mention of it. Billed as "Rake for Python," I became intrigued and poked through the repo for a few minutes before filing it away in my mind and went back to work. When the inspiration for writing a task automator for Jekyll struck me, I decided I'd use this library instead of Rake.
 
 To get started, I simply invoked `pip install shovel` (in a virtualenv, of course). You could also clone it from GitHub and then install it (note that, at minimum, you'll need `argparse` installed):
 
