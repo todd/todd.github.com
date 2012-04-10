@@ -1,3 +1,9 @@
+'''
+This is a Shovel (https://github.com/seomoz/shovel) script
+that will create new Jekyll content and automatically
+generate the YAML Front Matter boilerplate.
+'''
+
 import datetime
 import os.path
 import re
@@ -6,8 +12,6 @@ import sys
 from shovel import task
 
 CONFIG = {
-	'version': '0.1',
-	'includes': '_includes',
 	'layouts': '_layouts',
 	'posts': '_posts',
 	'post_ext': 'md'
