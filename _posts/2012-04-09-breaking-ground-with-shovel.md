@@ -12,7 +12,7 @@ And it's awesome - I'm really enjoying it.
 
 But, there's a little bit of boilerplate that has to go into every post - not to where it becomes a massive undertaking to draft one, but enough that it gets a little tedious. A glance at various Jekyll implementations revealed that many users are using a Rakefile to handle the monotonous task of creating new content and generating the associated boilerplate. Well, given that Python is my language of choice at the moment, I thought this would be a good opportunity to teach myself something new (and avoid the temptation of being lazy and cloning someone's Rakefile).
 
-Enter [Shovel](https://github.com/seomoz/shovel). I first became aware of Shovel a few weeks ago when a weekly Python digest I receive made mention of it. Billed as "Rake for Python," I became intrigued and poked through the repo for a few minutes before filing it away in my mind and went back to work. When the inspiration for writing a task automator for Jekyll struck me, I decided I'd use the this library instead of Rake.
+Enter [Shovel](https://github.com/seomoz/shovel). I first became aware of Shovel a few weeks ago when a weekly Python digest I receive made mention of it. Billed as "Rake for Python," I became intrigued and poked through the repo for a few minutes before filing it away in my mind and went back to work. When the inspiration for writing a task automator for Jekyll struck me, I decided I'd use this library instead of Rake.
 
 To get started, I simply invoked `pip install shovel` (in a virtualenv, of course). You could also clone it from GitHub and then install it (note that, at minimum, you'll need `argparse` installed):
 
@@ -25,7 +25,7 @@ Once I had it installed, I got to work. Shovel will automatically execute a spec
 To start hacking with Shovel, you only need to import one class:
 
 	from shovel import task
-	
+
 `task` is actually a decorator class - to use it, simply decorate a method with `@task` and it instantly becomes a task you can execute with Shovel (provided it's in a Shovel file or directory). So you can basically take any method you've written, wrap it with `@task`, and invoke it from the command line. Shovel will also look for arguments in the command to use as `args` or `kwargs` and uses comment blocks within the method as help dialogue (accessed, conveniently enough, with `shovel help`). These features make Shovel extremely easy and useful to use.
 
 With this knowledge in hand, I set out to create a Shovel file that would handle my Jekyll dirty work. Beyond those two additional lines of code, there's nothing extra you need to add to get Shovel to work with your code (besides maybe making errors exit to the command line gracefully). From there it was a bunch of string and date manipulation to get the results I desired - what follows is one of my Shovel tasks for creating a blog post (a link to the full source is below that) - `CONFIG` references a list instantiated outside the method:
