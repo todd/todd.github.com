@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Resume - Now With 100% More JSON
-published: false
+published: true
 category: 
 tags: [ruby, sinatra, jobs]
 ---
