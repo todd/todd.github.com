@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Nitpicking a Prototype
-published: false
+published: true
 category: 
-tags: []
+tags: [google, peter ha, project glass, techcrunch]
 ---
 I'm frustrated this morning.
 
@@ -18,5 +18,5 @@ Ha, meanwhile, seems only to want to poke holes in this very public, very brief 
 Is he for real? **No one** is doing anything like this. I find his entire piece to be an exercise in absurdity. If the Glass unit Thrun was showing off had been a final version that was ready for review it would be one thing (and I'd even agree with Ha), but it's merely a prototype. There is clearly a lot of work left to do, but the progress shown so far is still extrememely exciting and promising.
 
 Ha wraps up by saying:
-> Be excellent again, Google. That's all we ask.
+> Be excellent again, Google. That's all we ask.  
 Likewise - let's give them a chance, shall we?
