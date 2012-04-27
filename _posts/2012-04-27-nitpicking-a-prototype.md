@@ -20,4 +20,4 @@ Is he for real? **No one** is doing anything like this. I find his entire piece 
 Ha wraps up by saying:
 > Be excellent again, Google. That's all we ask.
 
-Likewise - let's give them a chance, shall we?
+I agree - let's give them a chance, shall we?
