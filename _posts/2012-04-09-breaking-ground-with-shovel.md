@@ -52,7 +52,7 @@ With this knowledge in hand, I set out to create a Shovel file that would handle
 			f.write('---\n')
 			f.write('layout: post\n')
 			f.write('title: ' + title + '\n')
-			f.write('published: false')
+			f.write('published: false\n')
 			f.write('category: \n')
 			f.write('tags: []\n')
 			f.write('---')
