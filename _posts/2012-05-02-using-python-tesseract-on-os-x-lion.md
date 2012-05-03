@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using python-tesseract on OS X Lion
-published: false
+published: true
 category: 
 tags: [os x, tesseract, python, python-tesseract]
 ---
