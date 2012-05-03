@@ -5,11 +5,11 @@ published: false
 category: 
 tags: [os x, tesseract, python, python-tesseract]
 ---
-So I started a [new job](http://www.gopago.com) on Monday and have been interested in getting up and running with optical character recognition (OCR) libraries. [Tesseract]() seems to be the de facto "go-to" software for OCR and I wanted to get up and running with it and some [Python bindings](). As I found out, this is actually easier said than done and requires a very minor hack that I haven't found documented anywhere on the web.
+So I started a [new job](http://www.gopago.com) on Monday and have been interested in getting up and running with optical character recognition (OCR) libraries as a little side-project related to my new duties. [Tesseract](http://code.google.com/p/tesseract-ocr/) seems to be the de facto "go-to" software for OCR and I wanted to get up and running with it and some [Python bindings](http://code.google.com/p/python-tesseract/). As I found out, this is actually easier said than done and requires a very minor hack that I haven't found documented anywhere on the web.
 
-Before we begin, note that I installed Tesseract and its dependencies with [Homebrew](). These instructions may work for MacPorts installs, but I haven't tested that - your mileage may vary.
+Before we begin, note that I installed Tesseract and its dependencies with [Homebrew](http://mxcl.github.com/homebrew/). These instructions may work for MacPorts installs, but I haven't tested that - your mileage may vary.
 
-Installing Tesseract (and its dependencies) was as simple as cracking open terminal and running `brew install tesseract`. You'll also want to make sure you have Swig installed - if you don't, run `brew install swig`. Next I had to get a python-tesseract [tarball]() to build. I'm a big fan of `virtualenv` and I use it for basically every little thing I do with Python - I set up a new one with `virtualenv tesseract_test`. I ran `source bin/activate` in my new virtualenv and then untarred the python-tesseract archive. Then I ran, as suggested by the [build docs](), `python setup.py build` and was greeted with this piece of wonderful news:
+Installing Tesseract (and its dependencies) was as simple as cracking open terminal and running `brew install tesseract`. You'll also want to make sure you have Swig installed - if you don't, run `brew install swig`. Next I had to get a python-tesseract [tarball](http://code.google.com/p/python-tesseract/downloads/detail?name=python-tesseract_0.7.orig.tar.gz&can=2&q=) to build. I'm a big fan of `virtualenv` and I use it for basically every little thing I do with Python - I set up a new one with `virtualenv tesseract_test`. I ran `source bin/activate` in my new virtualenv and then untarred the python-tesseract archive. Then I ran, as suggested by the [build docs](http://code.google.com/p/python-tesseract/wiki/HowToCompilePythonTesseract), `python setup.py clean` followed by `python setup.py build` and was greeted with this piece of wonderful news:
 
 	include path=/opt/local/include
 	Current Version : 0.7
@@ -26,7 +26,7 @@ Installing Tesseract (and its dependencies) was as simple as cracking open termi
 	tesseract.i:13: Error: Unable to find 'baseapi.h'
 	error: command 'swig' failed with exit status 1
 	
-I'm not the [only person]() who has run into this problem (which was the primary factor that motivated me to pen this). The build is failing because Swig can't find the right files - not because they don't exist, but because the setup script is looking in the wrong place. The fix for this is extremely simple - first, run `python setup.py clean`. Then open setup.py in your favorite editor and, on line 10, change
+I'm not the [only person](http://groups.google.com/group/tesseract-ocr/browse_thread/thread/f131e5746d34523f) who has run into this problem (which was the primary factor that motivated me to pen this). The build is failing because Swig can't find the right files - not because they don't exist, but because the setup script is looking in the wrong place. The fix for this is extremely simple - open setup.py in your favorite editor and, on line 10, change
 
 	prefix="/opt/local"
 	
