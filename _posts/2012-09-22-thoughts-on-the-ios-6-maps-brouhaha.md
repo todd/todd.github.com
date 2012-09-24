@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thoughts on the iOS 6 Maps Brouhaha
-published: false
+published: true
 category: 
 tags: []
 ---
@@ -14,7 +14,7 @@ So I suppose I shouldn't be that surprised to see articles predicting the end of
 
 1. **Steve Jobs would never have let this happen.**
 
-	This is the type of argument I have seen the most over the last couple of days. And, while it may be true that Jobs may have stopped the app from shipping, without the man making the call himself, we'll simply never know whether that's the case or not. However, the substance of the argument is essentially stating that Steve Jobs would never have shipped an imperfect product - people making this argument seem to have a rather limited memory span.
+	This is the type of argument I have seen the most over the last couple of days. And, while it may be true that Jobs may have stopped the app from shipping, without the man making the call himself, we'll simply never know whether that's the case or not. However, the substance of the argument is essentially positing that Steve Jobs would never have shipped an imperfect product - people making this argument seem to have a rather limited memory span.
 
 	In fact, I can think of two very high-profile duds that Apple shipped under Jobs's direction - MobileMe and the original iPhone 4 with its flawed antenna. In both cases, Apple was able learn and iterate upon each product in a way that ultimately paid off for them. Apple ended up fixing the issues with the iPhone 4 antenna, offered a free case to early adopters, and sold tens of millions of units of the phone. MobileMe ultimately became iCloud and now has over 150 million paying subscribers.
 
@@ -28,7 +28,7 @@ So I suppose I shouldn't be that surprised to see articles predicting the end of
 
 	>It’s possible Apple tried to renew for another year or two and Google either refused (unlikely, I’d say) or offered to do so under terms Apple found unacceptable (possible, I’d say).
 
-	In the first case, it would seem clear that the expiration of their contract with Google presented a good opportunity for Apple to jump ship from the entire Google platform, even if it meant some growing pains for themselves and their users. In the case of either of Gruber's theories, it's possible that Google simply gave Apple no choice and they had to push out what they knew was an incomplete product. Whatever the case, it's probably safe to assume that Apple wanted to stop supplying a direct competitor with [absurd amounts of money](http://www.forbes.com/sites/timworstall/2012/03/30/google-makes-more-from-iphones-than-it-does-from-android/) for its services.
+	In the first case, it would seem clear that the expiration of their contract with Google presented a good opportunity for Apple to jump ship from the entire Google platform, even if it meant some growing pains for themselves and their users. In the case of either of Gruber's theories, it's possible that Google simply gave Apple no choice and they had to push out what they knew was an incomplete product. Whatever the case, it's probably safe to assume that Apple wanted to stop supplying their primary competitor with [absurd amounts of money](http://www.forbes.com/sites/timworstall/2012/03/30/google-makes-more-from-iphones-than-it-does-from-android/) for its services.
 
 3. **Apple can't compete with Google in this space.**
 
@@ -39,3 +39,5 @@ So I suppose I shouldn't be that surprised to see articles predicting the end of
 	Apple is increasingly dabbling in areas that require strong dataset management and utilization skills - skills that weren't necessarily required for most of the products in their portfolio previously. But as Apple bets more of its future on cloud computing, these skillsets are going to become more important and Apple is going to have to rapidly develop strong data gathering, data management, and machine learning capabilities in order to make services like Siri and their new Maps app successful.
 
 	But that's not to say that Apple's not capable of competing on Google's level. In fact, if there's any company out there that can give Google a run for its money in this space, despite it not being one of their core competencies, I'd say it's Apple. But it will take time to get to that level and that will be frustrating for a lot of iOS users. And if Google is indeed readying a new, standalone maps app for iOS (and I don't see any reason why they wouldn't be), the onus is going to be on Apple to get to that level of sophistication sooner rather than later.
+
+Apple hasn't peaked, isn't doomed, and isn't going anywhere. The hubbub surrounding the Maps launch is certainly well-deserved and something I'm sure Apple will make strides to correct, but the doomsday predictions are nothing more than hyperbole and sensationalist journalism. Like their missteps of yesteryear, Apple will recover from and adapt to this to produce even higher quality products.
