@@ -23,7 +23,7 @@ tags: []
 
     I only occasionally post on here anymore - I'd like to change that so I'm pumping out 1-2 quality posts a week.
 
-5.  **<strike>Drink less.</strike>~~**
+5.  **<strike>Drink less.</strike>**
 
     Nope.
 
