@@ -30,7 +30,6 @@ To start hacking with Shovel, you only need to import one class:
 
 With this knowledge in hand, I set out to create a Shovel file that would handle my Jekyll dirty work. Beyond those two additional lines of code, there's nothing extra you need to add to get Shovel to work with your code (besides maybe making errors exit to the command line gracefully). From there it was a bunch of string and date manipulation to get the results I desired - what follows is one of my Shovel tasks for creating a blog post (a link to the full source is below that) - `CONFIG` references a list instantiated outside the method:
 	
-{% highlight python %}
 	@task
 	def post(title='new-blog-post', date=None):
 		'''Creates a new blog post.
@@ -57,7 +56,6 @@ With this knowledge in hand, I set out to create a Shovel file that would handle
 			f.write('category: \n')
 			f.write('tags: []\n')
 			f.write('---')
-{% endhighlight %}
 
 The full source is available as a [gist](https://gist.github.com/2348706) (for easy cloning) or in the [repo](https://github.com/toddward/toddward.github.com/blob/master/shovel.py) that hosts this blog.
 
