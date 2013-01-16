@@ -17,7 +17,11 @@ title: dd0T
     {% endif %}
     {% if paginator.previous_page %}
         <span class="newer">
-            <a href="/page{{paginator.previous_page}}">Newer Posts</a>
+            {% if paginator.previous_page == 1 %}
+                <a href="/">Newer Posts</a>
+            {% else %}
+                <a href="/page{{paginator.previous_page}}">Newer Posts</a>
+            {% endif %}
         </span>
     {% endif %}
 </section>
