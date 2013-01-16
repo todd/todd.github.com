@@ -309,3 +309,11 @@ a {
   border: 1px solid rgba(0,0,0,0.15);
   font-size: 13px;
 }
+.paginate {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.newer {
+  text-align: right;
+  float: right;
+}
