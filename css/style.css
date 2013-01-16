@@ -316,4 +316,5 @@ a {
 .newer {
   text-align: right;
   float: right;
+  margin-bottom: 20px;
 }
