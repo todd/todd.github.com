@@ -4,7 +4,7 @@ layout: default
 <div class="post">
   <div class="title-bar">
     <span class="post-title"><a href="#">{{ page.title }}</a></span>
-    <span class="post-date">{{ page.date | date_to_string }}</span>
+    <span class="post-date">{{ page.date | date: "%-m/%-d/%Y" }}</span>
   </div>
   {{ content }}
 </div>
