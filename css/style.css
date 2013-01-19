@@ -273,6 +273,9 @@ a {
 .post img {
   max-width: 800px;
 }
+.post a {
+  text-decoration: underline;
+}
 .post blockquote {
   border-color: rgba(0,0,0,0.15);
   padding: 0 0 0 15px;
