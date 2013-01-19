@@ -252,11 +252,15 @@ a {
 .post {
   margin-bottom: 50px;
 }
+.post a {
+  text-decoration: underline;
+}
 .title-bar {
   margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
 }
 .post-title a {
+  text-decoration: none;
   margin-bottom: 5px;
   font-size: 38px;
   color: #555;
@@ -272,9 +276,6 @@ a {
 }
 .post img {
   max-width: 800px;
-}
-.post a {
-  text-decoration: underline;
 }
 .post blockquote {
   border-color: rgba(0,0,0,0.15);
