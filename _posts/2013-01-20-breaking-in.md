@@ -18,10 +18,9 @@ Remember - [Rails is definitely not for beginners](http://rob.yurkowski.net/post
 
 There are at least two benefits to learning and understanding Ruby before going anywhere near Rails. The first, obviously (and as Rob points out), is that learning Ruby will give you a basic understanding of the language Rails uses (and, let's face it, Rails is pretty much useless if you don't understand Ruby). The second is that Rails adds some nifty helper methods to stdlib Ruby classes - learning Ruby first will help you understand what those methods are and how to avoid confusion later on when you try to use a Rails-only method in a non-Rails application.
 
-What I find interesting about the anecdote I opened this post with is that it's a commentary on the culture of "now" we have developed. People want to achieve their end-goal immediately - as soon as they discover that doing so will take more work and effort than they had hoped, they become disinterested. Aspiring Rails-devs-to-be have it a little easier, what with the countless courses and tutorials offered online and in-person. But that doesn't change the fact that people may be handicapping themselves by taking these shortcuts.
-
 So what is my recommendation? How should beginners go about learning their framework of choice?
-
 1. Learn the fundamentals. This includes basic CS ideas and your language of choice. Do not just jump into the framework and hope for the best.
 2. <strike>???</strike> Then, and only then, start to learn the framework. Trust me, you'll thank me.
 3. Profit.
+
+What I find interesting about the anecdote I opened this post with is that it's a commentary on the culture of "now" we have developed. People want to achieve their end-goal immediately - as soon as they discover that doing so will take more work and effort than they had hoped, they become disinterested. Aspiring Rails-devs-to-be have it a little easier, what with the countless courses and tutorials offered online and in-person. But that doesn't change the fact that people may be handicapping themselves by taking these shortcuts.
