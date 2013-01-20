@@ -5,7 +5,7 @@ layout: nil
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dd0T</title>
-    <link>http://blog.dd0t.com/</link>
+    <link>http://t0dd.io/</link>
     <atom:link href="http://blog.dd0t.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Ramblings of a Quasi-Madman</description>
     <language>en-us</language>
@@ -15,13 +15,13 @@ layout: nil
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://blog.dd0t.com{{ post.url }}</link>
+      <link>http://t0dd.io{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>todd@dd0t.com (Todd Bealmear)</author>
-      <guid>http://blog.dd0t.com{{ post.id }}</guid>
+      <author>todd@t0dd.io (Todd Bealmear)</author>
+      <guid>http://t0dd.io{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
 
-  </channel> 
+  </channel>
 </rss>
