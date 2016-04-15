@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/todd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://t0dd.io
+  * I am todd (https://keybase.io/todd) on keybase.
+  * I have a public key with fingerprint BF41 F6FA F4EC 9E09 D940  0471 1549 098F 40CD 729D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101790af583963ea87127d3d2ce989fcfb200a048dd1279d871051eb5507e6cc8850a",
+            "fingerprint": "bf41f6faf4ec9e09d94004711549098f40cd729d",
+            "host": "keybase.io",
+            "key_id": "1549098f40cd729d",
+            "kid": "0101790af583963ea87127d3d2ce989fcfb200a048dd1279d871051eb5507e6cc8850a",
+            "uid": "0a5ad8ee3127121fbe3a486eddfa1700",
+            "username": "todd"
+        },
+        "service": {
+            "hostname": "t0dd.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1460738134,
+    "expire_in": 157680000,
+    "prev": "f557235536c1d1e6c2bd416df3967424cad6c449b8ad5e9f8b62319c2ee28d3c",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMM4AnicrVJrUFRlGF5yAcESaMHLTN7O2lDDoud+WSYiLgaOAxMoF3Vazjnfd+AE
+7ll2z0JmW2hgA+quaJFN4CVMZpjBxCFRaxQsRhBxAkIRkHIELEBkaqYLJnaO5r9+
+9v355nve53m+93nn/e65eYZgv4iUIF9ct7PWr6vN6zZkhS3J3IEICtiOWHcgBfDx
+BQsBdKm2AhkgVgTFUIzhUF6iWIKjCcizDIYzgAC4CDmWk0RJwFGUR0kWAK3AAa2O
+UhgUKAplIC2KLEuhPGJBJNmeB50Op2xXNVtBIjGJlniJhCIHUQ5wJIqSDIZRJIdy
+rESiImBwDmjCfMWlK7TmBN4F18iKhmkP2+P2/oP/P/ftfmLHUzxgISQ0LoZjkgAJ
+nmRpCIDEYwyK6kQXdNr5bVBjqwoAiMeCaEixLEJ9qHqKp1UUgCcxHE5FVUSlUAPz
+VdVh1TXqdodOKoGC7V+5TZDtQJueJiiGTpes2BErpjFFVdb9MJJGGYLFCNKCwLcd
+shPaZJ1BMTSLakf/BhZrlhJFMThBUQQtYgDTMuICIDEaSNqAGBInRR7QIklyAssD
+CnISK9A4gXEiDiHOAkJE9EBFdkXz1kxVPk/zdMl5dl51OyHiudS21WjwCzYE+D+j
+r5UhOCj06bIhPSEPF6Wvq9z5xf36/TvZmXR3GrVkQ6ziyvAaKwO/3yLCI9zF1uvR
+Y4HDqR0PIxYXx2Q+uucu/+xk6lzLdDO4HfcgadHxwxXKUNhx82t+V+6EH/LfaEw5
+XOZ5Xo7LS3Yam2zGgz7waZN39VFlV/Qr/oV9dz4503ktfuOW17OyG64um2iIHT+v
+7LWlnXOsuDub817WvjXru8VNQ7VVh7pG7x894jtdc2/Kx5tG9w/UJSz+OvdW5PC3
+9e9SP7IfRJyLmtwXa/L2BY94elrKLweZWvpLazlbDXkjPrXsYElC9Jxp7XRnkNkc
+uXLPQEq46WWiY767LPx6aLnn4ryzrHygfcNsTJT5BfXuAXNW1M0Tk+KyhZ1zIRds
+Vb2WvrC41SsSLbclc++vswnm+YN2vzdyYHBl4B8Bj2Z+f7Er4u8bTZkF0Y0zr84M
+naSvjofkgZy1sGzkI198b3bd+xNLv2KXtn3eXNaljgbkmuovf7jtm7mKsVW3bk68
+2bo5t+GvM+0xdT3txSObbRUrO3jvdGkpnugY2H3qRCLZvGphM5u857eSjO4FbVPr
+twb6jlUPTy0/PfToQXb/D9UVXy4PsX6cafi5rvqtl0qrNnkDADF5Id2/9c8iTEhL
+9lQ3ZoShV/KtaYPHjEnmAcv53RPDC0J/Gt81Fn2tJqOo8RSeBJ89O5U83PpL/953
+TJeYyMF/AEQQthA=
+=hCYA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/todd
+
+==================================================================
